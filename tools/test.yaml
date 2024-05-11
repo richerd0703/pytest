@@ -1,0 +1,14 @@
+ip: region-3.seetacloud.com
+port: 37252
+pwd: KyfxHzEbf0pv
+username: root
+卸载命令:
+  command: null
+安装命令:
+  command: git clone https://github.com/liaochengcsu/road_segmentation_pytorch.git
+执行命令:
+  command: ./blade create disk burn --read --write
+挂载命令:
+  command: vmstat
+销毁命令:
+  command: ./blade destroy dca833521d9daad5

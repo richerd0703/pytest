@@ -1,0 +1,14 @@
+hosts:
+  server1:
+    ip: region-3.seetacloud.com
+    port: 37252
+    pwd: KyfxHzEbf0pv
+    username: root
+  server2:
+    ip: region-3.seetacloud.com
+    port: 37252
+    pwd: KyfxHzEbf0pv
+    username: root
+执行命令:
+  server1: ./blade create disk burn --write
+  server2: ./blade create disk burn --read
